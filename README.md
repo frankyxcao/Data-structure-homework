@@ -1,2 +1,3 @@
 # Data-structure-homework
-just for fun:)
+Just for fun:)
+PS:Data structure always gets me anoyed. XD
