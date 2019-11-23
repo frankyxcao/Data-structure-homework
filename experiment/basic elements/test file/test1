@@ -1,0 +1,20 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+int main(){
+	while(1){
+	int n,counter = 1;
+	cin>>n;
+	n=abs(n);
+	while(n>10){
+		n = n/10;
+		counter++;
+	}
+	
+	cout<<counter<<endl;
+}
+	return 0;
+}
+
