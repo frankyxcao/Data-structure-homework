@@ -43,13 +43,7 @@ int main(){
 	}
 	
 	fclose(fp);
-	s[counter] = '\0';
-	
-	for( i = 0 ; i < counter + 1  ; i++){
-		printf("%d\n" , s[i]);
-	}
-	printf("------------------------\n");
-	
+	s[counter] = '\0';	
     
 	for( i = 0 ;i < counter ;i++){
 	    changer = s[i];
@@ -67,8 +61,6 @@ int main(){
 		changercounter++;
 	}
 }
-
-printf("finfished!----------------------------\n");
     for(i=0;i<changercounter;i++){
     	printf("%d\n" , final[i]);
 	}
